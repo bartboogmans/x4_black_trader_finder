@@ -1,21 +1,17 @@
 # x4_black_trader_finder
-Finds black trader station IDs in Egosoft x4 foundations
-tested on version 6.0, but might work fine on others
+Finds station IDs which have a black trader in Egosoft x4 foundations
 
-## Requirements: 
-- Find your savegame file in /documents/egosoft/yadayada
+Requirements: 
 - You must know how to run attached python script or be competent enough to google it.
 
 Think twice before you use this, as this cheat will affect your game experience.
-
-## Approach
-- Loops through the save file remembering the last definition of a station it came across. 
-- If following a non empty 'shady-guy' (black trader) definition is found, append the last station to a list.
-- Print all the found station ID's with a shady trader (e.g. 'GAA-423') in the terminal from which the script is called, sorted by faction, so you can look them up from your in-game map search bar
+I was not so quickly able to figure out names of sectors that these stations were in, although that would have been nice as well. 
+tested on version 6.0, but might work fine on others
 
 ## Use
-- Put your savefile in the same folder as this python script & unzip (it is compressed by default). Support Winrar.
-- Make sure the savefile is named 'data' 
+- Put your savefile in the same folder as this python script. Find it in documents/Egosoft/yadayada.
+- Unzip (it is saves compressed by default). Support Winrar.
+- Make sure the unzipped savefile is named 'data' 
 - Run the python script
 
 Example in ubuntu terminal:
