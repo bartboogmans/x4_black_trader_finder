@@ -4,9 +4,10 @@ Finds station IDs which have a black trader in Egosoft x4 foundations
 Requirements: 
 - You must know how to run attached python script or be competent enough to google it.
 
-Think twice before you use this, as this cheat will affect your game experience.
+Think twice before you use this, as this cheat will affect your game experience. 
+
 I was not so quickly able to figure out names of sectors that these stations were in, although that would have been nice as well. 
-tested on version 6.0, but might work fine on others
+Tested on save file of version 6.0, but might work fine on others
 
 ## Use
 - Put your savefile in the same folder as this python script. Find it in documents/Egosoft/yadayada.
